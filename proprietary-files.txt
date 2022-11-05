@@ -58,6 +58,12 @@ system_ext/framework/audiosphere.jar
 vendor/bin/audioflacapp
 vendor/bin/loadalgo
 
+# Audio FX AudioSphere
+system_ext/etc/permissions/audiosphere.xml
+system_ext/framework/audiosphere.jar
+vendor/bin/audioflacapp
+vendor/bin/loadalgo
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
