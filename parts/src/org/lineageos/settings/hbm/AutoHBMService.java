@@ -30,7 +30,7 @@ public class AutoHBMService extends Service {
     private static final String BACKLIGHT = "/sys/class/backlight/panel0-backlight/brightness";
     private float lux;
     private float threshold;
-    private float lower_threshold = 0;
+    private float lower_threshold =;
     private ExecutorService mExecutorService;
     private static final String TAG = "AutoHBM";
     private static final int MAX_BACKLIGHT = 2047;
